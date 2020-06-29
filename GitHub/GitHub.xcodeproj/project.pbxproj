@@ -48,8 +48,16 @@
 			children = (
 				FD88685D24A78E8A0013BD57 /* GitHub.h */,
 				FD88685E24A78E8A0013BD57 /* Info.plist */,
+				FD88686624AA37A50013BD57 /* Entity */,
 			);
 			path = GitHub;
+			sourceTree = "<group>";
+		};
+		FD88686624AA37A50013BD57 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
