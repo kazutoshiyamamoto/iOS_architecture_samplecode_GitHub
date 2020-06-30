@@ -10,6 +10,7 @@
 		FD88685F24A78E8A0013BD57 /* GitHub.h in Headers */ = {isa = PBXBuildFile; fileRef = FD88685D24A78E8A0013BD57 /* GitHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD88686824AB83A70013BD57 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686724AB83A70013BD57 /* User.swift */; };
 		FD88686A24AB85950013BD57 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686924AB85950013BD57 /* AccessToken.swift */; };
+		FD88686C24AB86160013BD57 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686B24AB86160013BD57 /* Repository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +19,7 @@
 		FD88685E24A78E8A0013BD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD88686724AB83A70013BD57 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FD88686924AB85950013BD57 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
+		FD88686B24AB86160013BD57 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 			children = (
 				FD88686724AB83A70013BD57 /* User.swift */,
 				FD88686924AB85950013BD57 /* AccessToken.swift */,
+				FD88686B24AB86160013BD57 /* Repository.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			files = (
 				FD88686824AB83A70013BD57 /* User.swift in Sources */,
 				FD88686A24AB85950013BD57 /* AccessToken.swift in Sources */,
+				FD88686C24AB86160013BD57 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
