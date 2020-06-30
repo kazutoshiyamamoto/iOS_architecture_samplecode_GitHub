@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FD88685F24A78E8A0013BD57 /* GitHub.h in Headers */ = {isa = PBXBuildFile; fileRef = FD88685D24A78E8A0013BD57 /* GitHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD88686824AB83A70013BD57 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686724AB83A70013BD57 /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FD88685A24A78E8A0013BD57 /* GitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD88685D24A78E8A0013BD57 /* GitHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHub.h; sourceTree = "<group>"; };
 		FD88685E24A78E8A0013BD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD88686724AB83A70013BD57 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		FD88686624AA37A50013BD57 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
+				FD88686724AB83A70013BD57 /* User.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -103,6 +106,7 @@
 				TargetAttributes = {
 					FD88685924A78E8A0013BD57 = {
 						CreatedOnToolsVersion = 11.3;
+						LastSwiftMigration = 1130;
 					};
 				};
 			};
@@ -139,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD88686824AB83A70013BD57 /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +273,7 @@
 		FD88686324A78E8B0013BD57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8DJ3WL36QU;
@@ -284,6 +290,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "Swift-beginners2.GitHub";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -292,6 +299,7 @@
 		FD88686424A78E8B0013BD57 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 8DJ3WL36QU;
