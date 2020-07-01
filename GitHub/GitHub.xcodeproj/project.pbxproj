@@ -54,6 +54,7 @@
 			children = (
 				FD88685D24A78E8A0013BD57 /* GitHub.h */,
 				FD88685E24A78E8A0013BD57 /* Info.plist */,
+				FD88686D24AC81330013BD57 /* API */,
 				FD88686624AA37A50013BD57 /* Entity */,
 			);
 			path = GitHub;
@@ -67,6 +68,13 @@
 				FD88686B24AB86160013BD57 /* Repository.swift */,
 			);
 			path = Entity;
+			sourceTree = "<group>";
+		};
+		FD88686D24AC81330013BD57 /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
