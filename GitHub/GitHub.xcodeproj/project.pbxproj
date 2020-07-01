@@ -11,6 +11,7 @@
 		FD88686824AB83A70013BD57 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686724AB83A70013BD57 /* User.swift */; };
 		FD88686A24AB85950013BD57 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686924AB85950013BD57 /* AccessToken.swift */; };
 		FD88686C24AB86160013BD57 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686B24AB86160013BD57 /* Repository.swift */; };
+		FD88686F24AC817C0013BD57 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686E24AC817C0013BD57 /* Session.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		FD88686724AB83A70013BD57 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		FD88686924AB85950013BD57 /* AccessToken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToken.swift; sourceTree = "<group>"; };
 		FD88686B24AB86160013BD57 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
+		FD88686E24AC817C0013BD57 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		FD88686D24AC81330013BD57 /* API */ = {
 			isa = PBXGroup;
 			children = (
+				FD88686E24AC817C0013BD57 /* Session.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD88686F24AC817C0013BD57 /* Session.swift in Sources */,
 				FD88686824AB83A70013BD57 /* User.swift in Sources */,
 				FD88686A24AB85950013BD57 /* AccessToken.swift in Sources */,
 				FD88686C24AB86160013BD57 /* Repository.swift in Sources */,
