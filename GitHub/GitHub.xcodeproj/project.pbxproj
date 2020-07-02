@@ -13,6 +13,7 @@
 		FD88686C24AB86160013BD57 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686B24AB86160013BD57 /* Repository.swift */; };
 		FD88686F24AC817C0013BD57 /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686E24AC817C0013BD57 /* Session.swift */; };
 		FD88687224ACBCEF0013BD57 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88687124ACBCEF0013BD57 /* Request.swift */; };
+		FD88687524ADB4610013BD57 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88687424ADB4610013BD57 /* Result.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FD88686B24AB86160013BD57 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		FD88686E24AC817C0013BD57 /* Session.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Session.swift; sourceTree = "<group>"; };
 		FD88687124ACBCEF0013BD57 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		FD88687424ADB4610013BD57 /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				FD88686E24AC817C0013BD57 /* Session.swift */,
 				FD88687024ACBCC50013BD57 /* Request */,
+				FD88687324ADB4440013BD57 /* Response */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -89,6 +92,14 @@
 				FD88687124ACBCEF0013BD57 /* Request.swift */,
 			);
 			path = Request;
+			sourceTree = "<group>";
+		};
+		FD88687324ADB4440013BD57 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				FD88687424ADB4610013BD57 /* Result.swift */,
+			);
+			path = Response;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,6 +186,7 @@
 				FD88686824AB83A70013BD57 /* User.swift in Sources */,
 				FD88687224ACBCEF0013BD57 /* Request.swift in Sources */,
 				FD88686A24AB85950013BD57 /* AccessToken.swift in Sources */,
+				FD88687524ADB4610013BD57 /* Result.swift in Sources */,
 				FD88686C24AB86160013BD57 /* Repository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
