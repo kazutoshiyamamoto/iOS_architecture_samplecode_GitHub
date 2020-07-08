@@ -31,6 +31,7 @@ public final class Session {
     
     @discardableResult
     public func send<T: Request>(_ request: T, completion: @escaping (Result<(T.Response, Pagination)>) -> ()) -> URLSessionTask? {
+        // baseURLの末尾にpathを結合
         let url = request.baseURL.appendingPathComponent(request.path)
         
         guard var componets = URLComponents(url: url, resolvingAgainstBaseURL: true) else {
