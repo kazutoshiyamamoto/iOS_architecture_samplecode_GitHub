@@ -38,6 +38,7 @@ public final class Session {
             completion(.failure(SessionError.failedToCreateComponents(url)))
             return nil
         }
+        // compactMap:nilを排除しながらmapする
         componets.queryItems = request.queryParameters?.compactMap(URLQueryItem.init)
         
         guard var urlRequest = componets.url.map({ URLRequest(url: $0) }) else {
@@ -45,10 +46,12 @@ public final class Session {
             return nil
         }
         
+        // GET or POST
         urlRequest.httpMethod = request.method.rawValue
         
         let headerFields: [String: String]
         if let additionalHeaderFields = additionalHeaderFields() {
+            // request.headerFieldsに重複したKeyがadditionalHeaderFieldsにあった場合Valueを足す
             headerFields = request.headerFields.merging(additionalHeaderFields, uniquingKeysWith: +)
         } else {
             headerFields = request.headerFields
