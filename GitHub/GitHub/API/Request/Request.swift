@@ -9,6 +9,8 @@
 import Foundation
 
 public protocol Request {
+    // associatedtypeに関しては以下参考記事
+    // https://qiita.com/mshrwtnb/items/2f947eb8422899b84dbc
     associatedtype Response: Decodable
     var baseURL: URL { get }
     var method: HttpMethod { get }

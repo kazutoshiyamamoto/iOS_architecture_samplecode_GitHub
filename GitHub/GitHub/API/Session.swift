@@ -79,6 +79,7 @@ public final class Session {
                 return
             }
 
+            // ~=:パターンマッチ。右辺が左辺にマッチしているかどうか。
             guard  200..<300 ~= response.statusCode else {
                 let message = try? JSONDecoder().decode(SessionError.Message.self, from: data)
                 completion(.failure(SessionError.unacceptableStatusCode(response.statusCode, message)))
