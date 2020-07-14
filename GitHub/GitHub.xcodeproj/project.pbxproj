@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD3AD4A524BDFE4700556B8B /* SearchUsersRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3AD4A424BDFE4700556B8B /* SearchUsersRequest.swift */; };
 		FD88685F24A78E8A0013BD57 /* GitHub.h in Headers */ = {isa = PBXBuildFile; fileRef = FD88685D24A78E8A0013BD57 /* GitHub.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FD88686824AB83A70013BD57 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686724AB83A70013BD57 /* User.swift */; };
 		FD88686A24AB85950013BD57 /* AccessToken.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD88686924AB85950013BD57 /* AccessToken.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FD3AD4A424BDFE4700556B8B /* SearchUsersRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchUsersRequest.swift; sourceTree = "<group>"; };
 		FD88685A24A78E8A0013BD57 /* GitHub.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GitHub.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD88685D24A78E8A0013BD57 /* GitHub.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitHub.h; sourceTree = "<group>"; };
 		FD88685E24A78E8A0013BD57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				FD88687124ACBCEF0013BD57 /* Request.swift */,
+				FD3AD4A424BDFE4700556B8B /* SearchUsersRequest.swift */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				FD88687224ACBCEF0013BD57 /* Request.swift in Sources */,
 				FD88687724ADB57A0013BD57 /* Pagination.swift in Sources */,
 				FD88686A24AB85950013BD57 /* AccessToken.swift in Sources */,
+				FD3AD4A524BDFE4700556B8B /* SearchUsersRequest.swift in Sources */,
 				FD88687524ADB4610013BD57 /* Result.swift in Sources */,
 				FD88686C24AB86160013BD57 /* Repository.swift in Sources */,
 				FD88687924AF1D940013BD57 /* ItemsResponse.swift in Sources */,
